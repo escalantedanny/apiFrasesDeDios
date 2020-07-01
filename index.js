@@ -17,7 +17,7 @@ app.use(cors());
 app.use(express.json({ extended: true}));
 
 // asignamos el PUERTO  a utilizar para la conexión
-const port = process.env.port || 4000;
+const port = process.env.port || 3200;
 
 // importamos todas nuestras rutas
 app.use('/api/frases', require('./routes/frases'));
