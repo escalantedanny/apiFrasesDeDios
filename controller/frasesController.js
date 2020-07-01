@@ -6,7 +6,7 @@ exports.obtenerFrases = async (req, res) => {
     try {
             let element;
             let i = Math.floor(Math.random() * 54) + 1;
-            console.log(i);
+            //console.log(i);
             
             const frases = await Frases.find();
                 for ( i; i <= frases.length; i++) {
